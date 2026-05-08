@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "node src/bot.js"
+restartPolicyType = "always"
