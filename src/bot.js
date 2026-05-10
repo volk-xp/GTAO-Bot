@@ -127,5 +127,4 @@ client.on('messageCreate', async (message) => {
 });
 
 // 🔐 Login
-require('dotenv').config();
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
